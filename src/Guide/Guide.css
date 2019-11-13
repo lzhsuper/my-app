@@ -1,0 +1,44 @@
+.guide {
+    position: absolute;
+    z-index: 1;
+    top: 4%;
+    width: 100%;
+    height: 9%;
+    background-color: white;
+    box-shadow: 0 6px 15px rgba(140, 140, 140, 0.65);
+}
+.guide_change {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    width: 100%;
+    height: 9%;
+    background-color: white;
+    box-shadow: 0 6px 15px rgba(140, 140, 140, 0.65);
+}
+
+ul.location {
+    position: absolute;
+    z-index: 1;
+    left: 51.5%;
+    top: 20%;
+    text-shadow: 0 1px hsl(231, 52%, 68%), 0 2px hsl(86, 36%, 26%), 0 3px hsla(206, 22%, 22%, 0.65), 0 4px hsl(24, 28%, 26%), 0 5px hsl(0, 0%, 65%), 0 5px 10px black;
+    font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+}
+
+li {
+    cursor: pointer;
+    display: inline;
+    padding-left: 13px;
+    font-size: 20px;
+}
+.logo{
+    position: relative;
+    z-index: 1;
+    right: 33%;
+}
+.pageselect{
+    border-bottom: 2px  solid red;
+    text-align: center;
+    width: 10px;
+}

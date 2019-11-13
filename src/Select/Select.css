@@ -1,0 +1,22 @@
+.Select{
+    position: absolute;
+    z-index: 1;
+    right: 5.5%;
+    top: 5%;
+    width: 20%;
+    height: 3%;
+    /*border-radius: 100px;*/
+}
+input.find{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-width: 5px;
+    background-color: rgba(153, 153, 153, 0.54);
+}
+button.selection{
+    background-color:  rgba(77, 55, 35, 0.64);
+    margin-left: 20px;
+    width: 25%;
+    height: 100%;
+}

@@ -1,0 +1,115 @@
+select {
+    width: 10%;
+    height: 3%;
+    border: #7f7f7f double;
+    position: absolute;
+    z-index: 1;
+    left: 65%;
+    top: 5%;
+    color: rgba(77, 18, 10, 0.97);
+    background-color: rgba(106, 76, 48, 0.22);
+    /*outline: none;*/
+}
+
+.message {
+    font-size: 50px;
+    color: #5a4324;
+}
+
+.page_message {
+    background-color: rgba(186, 190, 163, 0.7);
+    height: 35px;
+    border-bottom: 1px dotted rgba(133, 133, 133, 0.75);
+}
+
+Button.button {
+    position: absolute;
+    z-index: 2;
+    left: 45.5%;
+    width: 10%;
+    height: 25%;
+    /*bottom: 27%;*/
+    background-color: rgba(29, 29, 29, 0.72);
+    border-width: 7px;
+    border-color: rgba(71, 96, 106, 0.52);
+    color: rgba(209, 209, 209, 0.83);
+    font-size: medium;
+    /*outline : none;*/
+    border-radius: 25px;
+}
+
+.inbody {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 87%;
+    /*margin-bottom: 5%;*/
+}
+
+ul {
+    padding: 0;
+    height: 25px;
+    text-align: center;
+}
+
+li {
+    margin-left: 25px;
+    /*list-style: none;*/
+    display: inline;
+    cursor: pointer;
+
+}
+
+:focus {
+    outline: none;
+}
+
+.delbutton {
+    background-color: rgba(91, 38, 0, 0.58);
+    color: #1118af;
+    height: 22px;
+    position: relative;
+    left: 40%;
+    z-index: 1;
+}
+
+.space {
+    position: absolute;
+    right: 12%;
+    z-index: 1;
+    /*float: right;*/
+}
+
+.isLoading {
+    position: absolute;
+    z-index: 0;
+    top: 40%;
+    left: 46%;
+    color: #5a4324;
+    width: 6%;
+    height: 35%;
+}
+
+/*svg {*/
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    /*left: 120%;*/
+    /*top: -5px;*/
+    /*color: rgba(90, 67, 36, 0.18);*/
+/*}*/
+
+.shadow {
+    text-shadow: 5px 2px rgba(106, 76, 48, 0.36);
+    font-style: oblique;
+}
+
+.nodata {
+    position: absolute;
+    z-index: 0;
+    top: 40%;
+    left: 47.5%;
+    color: rgba(49, 35, 23, 0.33);
+    font-size: 30px;
+}

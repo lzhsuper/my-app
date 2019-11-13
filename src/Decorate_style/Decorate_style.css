@@ -1,0 +1,395 @@
+.decorate {
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    font-size: 20px;
+    /*border: 1px solid #5a4324;*/
+    width: 70%;
+    left: 15%;
+    height: 150%;
+    background-color: white;
+}
+
+.svg_local {
+    position: absolute;
+    z-index: 1;
+    left: 37%;
+    top: -1%;
+}
+
+.linetitle {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    top: 14.5%;
+    border-top: 4px double;
+    border-image: linear-gradient(to right, rgba(9, 53, 5, 0), #093505, rgba(9, 53, 5, 0)) 1 10;
+}
+
+.linetitle_bottom {
+    border-top: 3px double rgba(14, 104, 15, 0.14);
+    position: relative;
+    z-index: 1;
+    width: 260px;
+    top: 11%;
+    left: 39%;
+    color: #bcbcbc;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.style {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    z-index: 1;
+    top: 17%;
+}
+
+li.stylelist {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    background: -webkit-gradient(linear, 2% 6%, 0% 80%, from(rgba(9, 53, 5, 0)), to(rgb(22, 78, 3)));
+}
+
+li.stylelist_defaule {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.picturebox {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 90%;
+    top: 23%;
+}
+
+.jianyue_style1 {
+    position: relative;
+    /*top: 25%;*/
+    left: 5%;
+    width: 30%;
+    height: 20%;
+    /*background-color: blanchedalmond;*/
+}
+
+.jianyue_style2 {
+    position: relative;
+    top: -20%;
+    left: 35%;
+    width: 30%;
+    height: 25%;
+    /*background-color: blanchedalmond;*/
+}
+
+.jianyue_style3 {
+    position: relative;
+    top: -45%;
+    left: 65%;
+    width: 30%;
+    height: 20%;
+    /*background-color: #6ad4ff;*/
+}
+
+.jianyue_style4 {
+    position: relative;
+    top: -43%;
+    left: 5%;
+    width: 30%;
+    height: 20%;
+    /*background-color: #475bff;*/
+}
+
+.jianyue_style5 {
+    position: relative;
+    top: -58%;
+    left: 35%;
+    width: 30%;
+    height: 36%;
+    /*background-color: #63ff66;*/
+}
+
+.jianyue_style6 {
+    position: relative;
+    top: -77%;
+    left: 5%;
+    width: 30%;
+    height: 20%;
+    /*background-color: #38f0ff;*/
+}
+
+.jianyue_style7 {
+    position: relative;
+    top: -119%;
+    left: 65%;
+    width: 30%;
+    height: 20%;
+    /*background-color: #38f0ff;*/
+}
+
+.jianyue_style8 {
+    position: relative;
+    top: -117%;
+    left: 65%;
+    width: 30%;
+    height: 20%;
+    /*background-color: #38f0ff;*/
+}
+
+.jianyue_style9 {
+    position: relative;
+    top: -104%;
+    left: 65%;
+    width: 30%;
+    height: 20%;
+    /*background-color: #38f0ff;*/
+}
+
+.jianyue_style10 {
+    position: relative;
+    top: -79%;
+    left: 65%;
+    width: 30%;
+    height: 20%;
+    /*background-color: #38f0ff;*/
+}
+
+.jingyinglinian {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 74%;
+    background-color: #ffffff;
+    color: #55442b;
+    font-size: 25px;
+    top: -5%;
+}
+
+.jingyinglinian_content {
+    position: absolute;
+    z-index: 1;
+    left: 45%;
+    top: 5%;
+}
+
+.liucheng_content {
+    position: absolute;
+    z-index: 1;
+    left: 45%;
+    top: 38%;
+}
+
+.linian {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 5%;
+    background-color: rgba(216, 216, 216, 0);
+    top: 12%;
+    right: 1%;
+}
+
+.style_title_linian {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 10px;
+    color: rgba(127, 127, 127, 0.44);
+    font-size: 20px;
+    /*background-color: #5a4324;*/
+    top: 16%;
+    right: 1%;
+}
+
+.style_title_liucheng {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 8px;
+    color: rgba(127, 127, 127, 0.44);
+    font-size: 20px;
+    /*background-color: #5a4324;*/
+    top: 34%;
+    right: 1%;
+}
+
+.style_content {
+    position: relative;
+    z-index: 1;
+    top: 20%;
+    line-height: 50px;
+    color: rgba(127, 127, 127, 0.91);
+    font-size: 23px;
+}
+
+
+.liucheng {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 5%;
+    background-color: rgba(216, 216, 216, 0);
+    top: 45%;
+    right: 1%;
+}
+
+.jinchengpicture {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 18%;
+    background-color: rgba(139, 139, 139, 0.09);
+    top: 57%;
+
+}
+
+.liucheng_box1 {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: 80%;
+    background-color: rgba(139, 139, 139, 0);
+    left: 3%;
+    top: 10%;
+}
+
+.liucheng_box2 {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: 80%;
+    background-color: rgba(139, 139, 139, 0);
+    left: 17%;
+    top: 10%;
+}
+
+.liucheng_box3 {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: 80%;
+    background-color: rgba(139, 139, 139, 0);
+    left: 31%;
+    top: 10%;
+}
+
+.liucheng_box4 {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: 80%;
+    background-color: rgba(139, 139, 139, 0);
+    left: 45%;
+    top: 10%;
+}
+
+.liucheng_box5 {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: 80%;
+    background-color: rgba(139, 139, 139, 0);
+    left: 59%;
+    top: 10%;
+}
+
+.liucheng_box6 {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: 80%;
+    background-color: rgba(139, 139, 139, 0);
+    left: 73%;
+    top: 10%;
+}
+
+.liucheng_box7 {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: 80%;
+    background-color: rgba(139, 139, 139, 0);
+    left: 87%;
+    top: 10%;
+}
+
+.small_title {
+    position: absolute;
+    z-index: 1;
+    height: 10%;
+    width: 100%;
+    top: 20%;
+    right: 1%;
+}
+
+.small_content {
+    position: absolute;
+    z-index: 1;
+    height: 10%;
+    width: 100%;
+    top: 65%;
+    right: 1%;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+
+/*td {*/
+    /*padding-left: 50px;*/
+/*}*/
+
+img.picture {
+    width: 100%;
+    height: 80%;
+}
+
+img.picture1 {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+}
+
+.zhedang {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(5, 187, 46, 0);
+}
+.zhedang:hover{
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    animation: colorchange 600ms;
+    animation-fill-mode: forwards;
+}
+@keyframes colorchange {
+    0%{
+        background-color: rgba(5, 187, 46, 0);
+    }
+    100%{
+        background-color: rgba(5, 187, 46, 0.55);
+    }
+}
+.zhedang :hover :after{
+    position: relative;
+    content: '风格介绍';
+    animation: contentchange 1s forwards;
+}
+@keyframes contentchange{
+    0%{
+        top: 0;
+        color: rgba(255, 255, 255, 0);
+    }
+    100%{
+        top: 45%;
+        color: #6628ff;
+        font-size: 25px;
+    }
+}
+
+
+

@@ -1,0 +1,99 @@
+.Brand {
+    width: 70%;
+    height: 15%;
+    border: 1px solid rgba(176, 196, 222, 0);
+    position: absolute;
+    z-index: 1;
+    left: 15%;
+    top: 62%;
+    background-color: white;
+}
+
+.box1 {
+    width: 20%;
+    height: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    position: relative;
+    z-index: 1;
+    top: 10%;
+    left: 4%;
+    float: left;
+    background-color: rgba(205, 205, 205, 0.24);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.box2 {
+    width: 20%;
+    height: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    position: relative;
+    z-index: 1;
+    top: 10%;
+    left: 7.5%;
+    float: left;
+    background-color: rgba(205, 205, 205, 0.24);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.box3 {
+    width: 20%;
+    height: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    position: relative;
+    z-index: 1;
+    top: 10%;
+    left: 11.5%;
+    float: left;
+    background-color: rgba(205, 205, 205, 0.24);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.box4 {
+    width: 20%;
+    height: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    position: relative;
+    z-index: 1;
+    top: 10%;
+    left: 15%;
+    float: left;
+    background-color: rgba(205, 205, 205, 0.24);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.spansrc {
+    position: relative;
+    z-index: 1;
+    width: 5%;
+    height: 30%;
+    right: 30%;
+    top: 23%;
+}
+
+.box-title {
+    position: absolute;
+    z-index: 1;
+    right: 5%;
+    /*float: right;*/
+    width: 70%;
+}
+
+.box-message {
+    position: absolute;
+    z-index: 1;
+    right: 2%;
+    bottom: 8%;
+    width: 70%;
+}

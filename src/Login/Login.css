@@ -1,0 +1,187 @@
+.LoginUi {
+    position: absolute;
+    z-index: 1;
+    /*background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567773945568&di=be3d4da31d427bd6725aea4355b22e21&imgtype=0&src=http%3A%2F%2Fimg.zx123.cn%2FResources%2Fzx123cn%2Fuploadfile%2F2018%2F0724%2Fbae742c9d838a51c4dd3ad6006a70163.jpg");*/
+    width: 19%;
+    height: 40.5%;
+    right: 15%;
+    top: 18%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px dimgrey;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 165%;
+    background-position: 0 0;
+    border-image: linear-gradient(to right, rgba(9, 53, 5, 0), #093505, rgba(9, 53, 5, 0)) 1 10;
+}
+
+.LoginUi_r {
+    position: absolute;
+    z-index: 1;
+    /*background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567773945568&di=be3d4da31d427bd6725aea4355b22e21&imgtype=0&src=http%3A%2F%2Fimg.zx123.cn%2FResources%2Fzx123cn%2Fuploadfile%2F2018%2F0724%2Fbae742c9d838a51c4dd3ad6006a70163.jpg");*/
+    width: 19%;
+    height: 40.5%;
+    right: 15%;
+    top: 18%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 30px dimgrey;
+    background-repeat: no-repeat;
+    background-size: 165%;
+    background-position: -233px 0;
+}
+
+.login_line {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    border: 4px double rgba(0, 0, 0, 0.26);
+    height: 85%;
+    left: 4%;
+    top: 8.5%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.userInput {
+    position: relative;
+    z-index: 9;
+    margin-top: 40px;
+    width: 60%;
+    height: 8%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    outline: none;
+    background-color: rgba(127, 127, 127, 0.18);
+    border-radius: 5px;
+    border-color: rgba(142, 107, 20, 0.47);
+}
+
+.pwdInput {
+    position: relative;
+    z-index: 9;
+    margin-top: 10px;
+    width: 60%;
+    height: 8%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    outline: none;
+    background-color: rgba(127, 127, 127, 0.18);
+    border-radius: 5px;
+    border-color: rgba(142, 107, 20, 0.47);
+}
+
+.LoingSubmit {
+    position: relative;
+    z-index: 9;
+    margin-top: 24px;
+    width: 65%;
+    height: 10%;
+    margin-left: 0.1%;
+    font-size: 15px;
+    background-color: rgba(75, 75, 75, 0.35);
+}
+
+.forgetdiv {
+    width: 100%;
+    height: 5%;
+}
+
+.forgetpwd {
+    position: relative;
+    z-index: 9;
+    float: right;
+    margin-right: 20%;
+    /*margin-top: px;*/
+}
+
+.prompt {
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    height: 30px;
+    left: 30%;
+    top: 18%;
+    background-color: rgba(255, 235, 205, 0);
+    color: #3A7734;
+}
+
+.correct:before {
+    position: relative;
+    z-index: 1;
+    content: '\2714';
+    color: #008100;
+    line-height: 20px;
+    right: 20px;
+}
+
+.incorrect:before {
+    position: relative;
+    z-index: 1;
+    content: '\2716';
+    color: #b20610;
+    line-height: 20px;
+    right: 20px;
+}
+
+.en_u_p {
+    position: relative;
+    z-index: 1;
+    height: 25px;
+    color: red;
+    left: 25%;
+    font-size: 12px;
+}
+
+.loginORregist {
+    left: 8%;
+    width: 30%;
+    background-color: white;
+    position: relative;
+    z-index: 9;
+    color: rgba(77, 77, 77, 0.11);
+    text-shadow: 1.1px 1.1px 0 rgba(16, 16, 16, 0.91);
+}
+
+.userInput_r {
+    position: relative;
+    z-index: 9;
+    margin-top: 40px;
+    width: 60%;
+    height: 8%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    outline: none;
+    background-color: rgba(127, 127, 127, 0.18);
+    border-radius: 5px;
+    border-color: rgba(142, 107, 20, 0.47);
+}
+
+.pwdInput_r {
+    position: relative;
+    z-index: 9;
+    /*margin-top: px;*/
+    width: 60%;
+    height: 8%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    outline: none;
+    background-color: rgba(127, 127, 127, 0.18);
+    border-radius: 5px;
+    border-color: rgba(142, 107, 20, 0.47);
+}
+
+.LoingSubmit_r {
+    position: relative;
+    z-index: 9;
+    margin-top: 1px;
+    width: 65%;
+    height: 10%;
+    margin-left: 0.1%;
+    font-size: 15px;
+    background-color: rgba(75, 75, 75, 0.35);
+}
